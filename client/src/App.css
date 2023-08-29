@@ -63,3 +63,37 @@ span{
 .signin--container h2{
   top: 2rem;
 }
+
+/* Search stlyle start */
+.search-bar{
+  padding: 2rem 5rem;
+}
+.search-bar input{
+  width: 90%;
+  height: 1.5rem;
+  vertical-align: top;
+  padding: 0.25rem 0.5rem;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+  
+}
+.search-bar input::placeholder{
+  text-align: center;
+}
+.search-bar input:focus{
+  outline: none;
+}
+.search-bar button{
+  width: 10%;
+  height: 1.5rem;
+  border-left: none;
+  border-radius: 0 10px 10px 0;
+}
+/* Product container style */
+.item-wrapper{
+  padding: 1rem 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
