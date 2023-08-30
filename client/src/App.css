@@ -20,7 +20,7 @@
   
 }
 
-h2, h3{
+.login-container h2,.login-container h3{
   position: absolute;
   top: 1rem;
   left: 0;
@@ -96,4 +96,20 @@ span{
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: space-between;
+}
+
+/* Item page style */
+.item-container h1{
+  text-align: center;
+  margin: 1rem 0;
+}
+.item-container .product-container{
+  display: flex;
+  justify-content: center;
+}
+.item-container .description{
+  padding: 2rem 5rem;
+}
+.item-container .description h3{
+  margin: 1rem 0;
 }

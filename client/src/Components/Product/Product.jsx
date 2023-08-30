@@ -1,6 +1,6 @@
 import "./product.css"
 import "../../App.css"
-export const Product = () =>{
+export const Product = (props) =>{
     const productImg = "https://sac-a-main.top/wp-content/uploads/2018/02/magic-zone-sacs-a-main-femmes-sacs-a-main-de-mode-pour-dames-sacs-a-bandouliere-en-cuir-pu-cabas-2018.jpg"
     const price = 55
     const rate = 4
@@ -11,7 +11,8 @@ export const Product = () =>{
                 <span>Rate: {rate}</span>
                 <span>Price: {price}$</span>
             </div>
-            <button>View Item</button>
+            {props.buy ? <button>Shop now</button>: <button>View Item</button>}
+            
         </div>
     )
 }
